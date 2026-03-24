@@ -64,6 +64,7 @@ output:
 
 1. 确保已安装依赖：
 ```bash
+conda create --name weekly -c conda-forge python=3.11 -y
 conda activate weekly
 pip install -r requirements.txt
 ```
