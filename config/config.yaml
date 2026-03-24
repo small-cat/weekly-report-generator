@@ -1,0 +1,16 @@
+claude:
+  command: "claude-kimi"  # 或 "claude-kimi"
+  model: "MiniMax-M2.5"  # 可选，指定具体模型
+
+github:
+  repo_url: "git@github.com:EuGeneWu/weekly-reports.git"
+  branch: "main"
+
+rss:
+  opml_path: "./ReadSource.opml"
+  start_date: "this_week"  # 或 "2026-01-01"
+
+output:
+  output_dir: "./output"
+  download_dir: "./download"
+  log_dir: "./logs"
